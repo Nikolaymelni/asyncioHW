@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+
+  database:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: 180594
+      POSTGRES_USER: postgres
+      POSTGRES_DB: asyncio
+    ports:
+      - 5050:5051
